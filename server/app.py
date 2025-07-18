@@ -18,7 +18,7 @@ def home():
 # Register
 @app.route('/register', methods=['POST'])
 def register():
-    data = request.get_json()
+    data = request.get_jscd on()
     username = data['username']
     password = data['password']
     if username in users:
@@ -59,4 +59,6 @@ def create_post():
     return jsonify(post), 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
