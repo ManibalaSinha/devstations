@@ -18,7 +18,7 @@ def home():
 # Register
 @app.route('/register', methods=['POST'])
 def register():
-    data = request.get_jscd on()
+    data = request.get_json()
     username = data['username']
     password = data['password']
     if username in users:
