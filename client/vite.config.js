@@ -6,5 +6,5 @@ const repoName = 'devstations';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/devstations/', // for GitHub Pages subfolder
+  base: `/${repoName}/`, // for GitHub Pages subfolder
 });
