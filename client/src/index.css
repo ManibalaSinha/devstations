@@ -1,0 +1,13 @@
+ /* client/src/index.css */
+ 
+/* src/index.css */
+.red-bordered-heading {
+  border: 2px solid red;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+}
+ 

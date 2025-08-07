@@ -7,15 +7,14 @@ import Navbar from './components/Navbar';
 
 function App() {
    return (
-    <Router basename="/devstations">{/*fix git hub pages*/}
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
-        <Route path="/quiz" element={<Quiz />} />
-        
+        <Route path="/" element={<Quiz />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
