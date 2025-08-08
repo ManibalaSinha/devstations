@@ -2,9 +2,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const repoName = 'devstations';
-
 export default defineConfig({
   plugins: [react()],
-  base: `/${repoName}/`, // for GitHub Pages subfolder
+  base: './', // for GitHub Pages subfolder
 });
