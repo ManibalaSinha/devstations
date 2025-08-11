@@ -1,4 +1,4 @@
-watch my youtube video to know the details https://youtube.com/live/nH6ib6JBxvo?feature=share
+
 # Devstations - Full Stack App (React + Flask)
 
  Live Demo: [Visit App](https://your-vercel-link.vercel.app)https://devstations-5.onrender.com/  
@@ -6,7 +6,7 @@ watch my youtube video to know the details https://youtube.com/live/nH6ib6JBxvo?
  Frontend: React  
  Deployed On: Vercel (Frontend) + Render (Backend)
 
----
+watch my youtube video to know the details https://youtube.com/live/nH6ib6JBxvo?feature=share
 
 ##  Overview
 
