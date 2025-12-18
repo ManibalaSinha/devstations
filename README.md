@@ -1,7 +1,7 @@
 
 # Devstations - Full Stack App (React + Flask)
 
- Live Demo GCP: https://8080-cs-4fb40e46-3c0d-4367-b233-2522dd7f61ca.cs-us-east1-yeah.cloudshell.dev/
+ Live Demo GCP: Service URL: https://devstations-server-6351281086.us-central1.run.app
  [Visit Frontend App] https://manibalasinha.github.io/devstations/
  Backend: Flask (Python)[Visit Backend App](https://your-vercel-link.vercel.app)https://devstations-5.onrender.com/  
  Frontend: React  
