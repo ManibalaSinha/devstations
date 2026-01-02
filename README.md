@@ -1,58 +1,85 @@
+# DevStations — Full Stack Web Platform (React + Python)
 
-# Devstations - Full Stack App (React + Flask)
+**DevStations** is a production-deployed full stack web application demonstrating end-to-end development using a **React frontend** and a **Python (Flask) backend**, exposed via REST APIs and deployed on modern cloud platforms including **Google Cloud Platform (GCP)**.
 
- Live Demo GCP: Backend URL: https://devstations-server-6351281086.us-central1.run.app
- GCP Frontend URL: https://devstations-client-6351281086.us-central1.run.app
- 
- [Visit Frontend App] https://manibalasinha.github.io/devstations/
- Backend: Flask (Python)[Visit Backend App](https://your-vercel-link.vercel.app)https://devstations-5.onrender.com/  
- Frontend: React  
- Deployed On: Vercel (Frontend) + Render (Backend)
+---
 
-watch my youtube video to know the details https://youtube.com/live/nH6ib6JBxvo?feature=share
+##  Live Applications
+
+### Google Cloud (Primary Deployment)
+
+* **Backend (GCP – Cloud Run)**
+  [https://devstations-server-6351281086.us-central1.run.app](https://devstations-server-6351281086.us-central1.run.app)
+
+* **Frontend (GCP)**
+  [https://devstations-client-6351281086.us-central1.run.app](https://devstations-client-6351281086.us-central1.run.app)
+
+### Alternative Deployments
+
+* **Frontend (GitHub Pages)**
+  [https://manibalasinha.github.io/devstations/](https://manibalasinha.github.io/devstations/)
+
+* **Backend (Render)**
+  [https://devstations-5.onrender.com/](https://devstations-5.onrender.com/)
+
+ **Architecture & Walkthrough Video**
+[https://youtube.com/live/nH6ib6JBxvo](https://youtube.com/live/nH6ib6JBxvo)
+
+---
 
 ##  Overview
 
-**Devstations** is a simple Full Stack project that demonstrates how a React frontend communicates with a Flask backend through RESTful APIs.
+DevStations showcases how a modern **React application** communicates with a **Python backend** through clean, RESTful APIs.
 
-- Built with **React** for a responsive UI.
-- Backend powered by **Flask** serving JSON data via API routes.
-- Deployed on modern platforms like **Render** and **Vercel**.
+The project focuses on:
+
+* Clear frontend–backend separation
+* API-driven architecture
+* Cloud deployment and real-world hosting considerations
+
+This project is suitable as a **reference full stack implementation** for small-to-medium web applications.
 
 ---
 
 ##  Tech Stack
 
-| Layer     | Technology        |
-|-----------|-------------------|
-| Frontend  | React, Vite       |
-| Backend   | Flask (Python)    |
-| API Comm. | Fetch API / Axios |
-| Deployment | Vercel (frontend), Render (backend) |
+| Layer       | Technology                |
+| ----------- | ------------------------- |
+| Frontend    | React, Vite               |
+| Backend     | Python, Flask             |
+| API         | REST (JSON)               |
+| HTTP Client | Fetch API / Axios         |
+| Cloud (GCP) | Cloud Run                 |
+| Deployment  | GCP, GitHub Pages, Render |
 
 ---
 
-##  Features
+##  Key Features
 
--  Flask REST API for handling backend logic
--  React frontend that fetches data via Axios/Fetch
--  CORS configured for cross-origin requests
--  Live deployment URLs for instant access
+* RESTful API built with **Flask**
+* React-based UI with API integration
+* Cross-Origin Resource Sharing (CORS) configured
+* Cloud-hosted backend with public API access
+* Multiple deployment environments for comparison
 
 ---
 
-##  How to Run Locally
+##  Run Locally
 
-### Backend (Flask):
+### Backend (Flask)
+
 ```bash
 cd server
 pip install -r requirements.txt
 python app.py
-````
+```
 
-Backend will run on: `http://localhost:5000`
+Backend runs on:
+`http://localhost:5000`
 
-### Frontend (React):
+---
+
+### Frontend (React)
 
 ```bash
 cd client
@@ -60,39 +87,34 @@ npm install
 npm run dev
 ```
 
-Frontend runs on: `http://localhost:5173`
+Frontend runs on:
+`http://localhost:5173`
 
-Make sure the backend is running before launching the frontend.
-
----
-
-##  API Endpoints
-
-| Method | Route      | Description       |
-| ------ | ---------- | ----------------- |
-| GET    | /api/posts | Get list of posts |
-| POST   | /api/posts | Add a new post    |
+ Ensure the backend is running before starting the frontend.
 
 ---
 
-##  Deployment URLs
+## 🔌 API Endpoints
 
-* **Frontend (Vercel)**: [https://your-vercel-url.vercel.app](https://vercel.com/manibala-sinhas-projects-273c5a77/devstations)
-* **Backend (Render)**: [https://your-backend-url.onrender.com](https://devstations-5.onrender.com/))
+| Method | Endpoint   | Description        |
+| ------ | ---------- | ------------------ |
+| GET    | /api/posts | Retrieve all posts |
+| POST   | /api/posts | Create a new post  |
 
 ---
 
 ##  Author
 
-* **Manibala Sinha**
-* Portfolio: [devstations.blogspot.com](https://devstations.blogspot.com)
-* GitHub: [@ManibalaSinha](https://github.com/ManibalaSinha)
-* YouTube: [Python/React Concepts](https://www.youtube.com/playlist?list=PLuzticsr30cWWduY3HesN-0rxmUtq1WI0)
+**Manibala Sinha**
+Senior Full Stack Engineer (React · Python · Cloud)
+
+*  Blog: [https://devstations.blogspot.com](https://devstations.blogspot.com)
+*  GitHub: [https://github.com/ManibalaSinha](https://github.com/ManibalaSinha)
+*  YouTube: Python & React Concepts:  https://youtube.com/live/nH6ib6JBxvo?feature=share
 
 ---
 
-## 📜 License
+##  License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
-```
