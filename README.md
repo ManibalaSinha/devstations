@@ -1,3 +1,68 @@
+##  Contributing & Volunteering
+
+We welcome **contributors of all levels** to help improve DevStations! Whether you are a beginner learning full-stack development, or an experienced developer, your contributions are valuable.
+
+### How to Contribute
+
+1. **Fork the repository**
+2. **Create a branch** for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes** and test locally
+4. **Commit your changes** with a clear message:
+
+   ```bash
+   git commit -m "Add feature X"
+   ```
+5. **Push your branch** to your fork:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Open a Pull Request** to the main repository
+
+> Make sure your PR is descriptive and references any related issues.
+
+---
+
+### Good First Issues
+
+If you are new to the project or open-source, start with **beginner-friendly issues**:
+
+* Improve or fix UI components
+* Add a new API endpoint
+* Add validation to existing endpoints
+* Write or improve documentation
+* Add tests for backend or frontend functionality
+
+All beginner-friendly issues are labeled `good first issue` or `help wanted` on GitHub.
+
+---
+
+### Volunteer Opportunities
+
+If you want to contribute **actively and regularly**:
+
+* Help add new features or modules
+* Improve cloud deployment and CI/CD setup
+* Refactor code for performance or maintainability
+* Mentor new contributors
+* Help create tutorials, demos, or YouTube walkthroughs
+
+> Volunteers will get recognition in the project, and you can list this experience on your **GitHub profile and resume** as open-source contributions.
+
+---
+
+### Code of Conduct
+
+We expect all contributors to follow a **friendly, inclusive, and respectful approach** when collaborating.
+
+* Be polite and constructive in discussions
+* Respect other contributors’ time and work
+* Follow GitHub workflow guidelines
+
 # DevStations — Full Stack Web Platform (React + Python)
 
 **DevStations** is a production-deployed full stack web application demonstrating end-to-end development using a **React frontend** and a **Python (Flask) backend**, exposed via REST APIs and deployed on modern cloud platforms including **Google Cloud Platform (GCP)**.
