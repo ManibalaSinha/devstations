@@ -300,7 +300,7 @@ Frontend runs on:
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint   | Description        |
 | ------ | ---------- | ------------------ |
@@ -308,7 +308,7 @@ Frontend runs on:
 | POST   | /api/posts | Create a new post  |
 
 ---
-## 📬 Get Involved
+##  Get Involved
 
 Want to contribute or have questions? You can **email me directly** at:
 
