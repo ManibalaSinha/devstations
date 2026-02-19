@@ -128,9 +128,9 @@ This project is suitable as a **reference full stack implementation** for small-
 * Multiple deployment environments for comparison
 
 ---
- Proof Project / MVP Highlights
+### **Proof Project / MVP Highlights
 
-This section demonstrates why DevStations is production-ready and a solid reference project:
+Why DevStations is production-ready and a solid reference project:
 
 End-to-end functionality: Fully working React frontend connected to Flask backend with REST APIs.
 
@@ -147,6 +147,128 @@ CI/CD Friendly: Can be deployed on other cloud platforms with minimal setup.
 Learning & Proof: Perfect showcase for recruiters to see a developer’s full-stack skills, cloud deployment, and clean architecture in action.
 
 This MVP proves DevStations is a realistic, deployable full stack application.
+
+### **Step A: Basic Badges**
+
+At the top of your README, under the title:
+
+```markdown
+![License](https://img.shields.io/badge/License-MIT-green)
+![Issues](https://img.shields.io/github/issues/ManibalaSinha/devstations)
+![Good First Issues](https://img.shields.io/github/issues/ManibalaSinha/devstations/good%20first%20issue)
+![Forks](https://img.shields.io/github/forks/ManibalaSinha/devstations?style=social)
+![Stars](https://img.shields.io/github/stars/ManibalaSinha/devstations?style=social)
+```
+---
+
+## **2️⃣ Issues & Pull Requests Guidance**
+
+You can create a new section in your **CONTRIBUTING.md** called:
+
+### **Pull Requests & Issues Guidelines**
+
+```markdown
+## 🔄 Issues & Pull Requests
+
+To make contributions smooth:
+
+1. **Link PRs to issues**  
+   - If you are fixing a bug or adding a feature, link your PR to the relevant issue using:  
+     `Closes #issue-number`  
+     This will automatically close the issue when the PR is merged.
+
+2. **Clear commit messages**  
+   - Use descriptive commit messages like:  
+     `Add API endpoint for posts`  
+     `Fix frontend bug in navbar`
+
+3. **Describe your changes in PR**  
+   - Include what you changed, why, and any steps to test it.
+
+4. **Review & testing**  
+   - Ensure your code runs locally.
+   - Check that new features don’t break existing functionality.
+```
+
+---
+
+## **3️⃣ Optional: Issue Templates**
+
+GitHub lets you **standardize bug reports or feature requests**.
+
+### **Step A: Create template folder**
+
+* In your repo, create:
+
+```
+.github/ISSUE_TEMPLATE/
+```
+
+### **Step B: Example templates**
+
+**bug_report.md**
+
+```markdown
+---
+name: Bug Report
+about: Report a problem with DevStations
+title: "[BUG] "
+labels: bug
+assignees: ''
+
+---
+
+**Describe the bug**
+A clear description of the problem.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click '...'
+3. See error
+
+**Expected behavior**
+A clear description of what you expected.
+
+**Screenshots**
+If applicable, add screenshots to help explain.
+
+**Additional context**
+Add any other context about the problem here.
+```
+
+**feature_request.md**
+
+```markdown
+---
+name: Feature Request
+about: Suggest a new feature or improvement
+title: "[FEATURE] "
+labels: enhancement
+assignees: ''
+---
+
+**Describe the feature**
+A clear and concise description of the feature.
+
+**Why is this needed?**
+Explain why this feature is useful.
+
+**Additional context**
+Add any other context or screenshots about the feature request.
+```
+
+After this, when someone clicks **“New Issue”**, GitHub will show these templates. It’s **super helpful for volunteers**.
+
+---
+
+✅ **Summary:**
+
+* **Badges:** Add at top of README for license, issues, stars, live deployments.
+* **PR & Issues guidance:** Add section in CONTRIBUTING.md.
+* **Issue templates:** Add `.github/ISSUE_TEMPLATE/` folder with `bug_report.md` and `feature_request.md`.
+
+---
 
 ##  Run Locally
 
@@ -186,6 +308,15 @@ Frontend runs on:
 | POST   | /api/posts | Create a new post  |
 
 ---
+## 📬 Get Involved
+
+Want to contribute or have questions? You can **email me directly** at:
+
+**smanibala.it@gmail.com**  
+
+Feel free to reach out — I’m happy to guide you and help you get started right away!  
+
+You can also start immediately by checking out the **good first issues** in this repository and submitting a pull request.
 
 ##  Author
 
@@ -197,6 +328,7 @@ Senior Full Stack Engineer (React · Python · Cloud)
 *  YouTube: Python & React Concepts:  https://youtube.com/live/nH6ib6JBxvo?feature=share
 
 ---
+
 
 ##  License
 
