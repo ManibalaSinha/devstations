@@ -128,6 +128,25 @@ This project is suitable as a **reference full stack implementation** for small-
 * Multiple deployment environments for comparison
 
 ---
+ Proof Project / MVP Highlights
+
+This section demonstrates why DevStations is production-ready and a solid reference project:
+
+End-to-end functionality: Fully working React frontend connected to Flask backend with REST APIs.
+
+Cloud deployment: Backend hosted on GCP Cloud Run and frontend on GitHub Pages and GCP, showing multi-environment support.
+
+Authentication-ready: Designed to easily integrate user authentication modules.
+
+CRUD Operations: Demonstrates complete create, read, update, delete flows for posts.
+
+Extensible Architecture: Modular structure for both frontend and backend for future feature expansion.
+
+CI/CD Friendly: Can be deployed on other cloud platforms with minimal setup.
+
+Learning & Proof: Perfect showcase for recruiters to see a developer’s full-stack skills, cloud deployment, and clean architecture in action.
+
+This MVP proves DevStations is a realistic, deployable full stack application.
 
 ##  Run Locally
 
