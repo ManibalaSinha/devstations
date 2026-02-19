@@ -1,0 +1,37 @@
+Project Overview:
+
+DevStations is a full-stack web application built to demonstrate end-to-end development using a React frontend and a Python (Flask) backend. It is designed as a production-ready MVP, showing modern development practices including RESTful APIs, cloud deployment, and modular architecture.
+
+The project serves as a learning and reference tool for developers who want to understand:
+
+How to structure a full-stack web application with clean frontend-backend separation.
+
+How to build and consume REST APIs with Python Flask.
+
+How to deploy both frontend and backend to cloud environments like GCP Cloud Run or GitHub Pages.
+
+How to implement CRUD operations, CORS handling, and multi-environment deployment.
+
+Best practices for scalable, maintainable, and modular code.
+
+Key goals:
+
+Demonstrate a realistic full-stack workflow from local development to cloud deployment.
+
+Provide a reference implementation for new developers learning React, Flask, or cloud deployment.
+
+Serve as a portfolio project that highlights skills in frontend, backend, cloud, and API development.
+
+Target audience:
+
+Junior to mid-level developers looking to understand full-stack web app architecture.
+
+Recruiters evaluating full-stack engineering skills.
+
+Open-source contributors interested in React + Flask projects.
+
+💡 Tip: You can also include one sentence about what’s live, like:
+
+The project is fully deployed with a live frontend (link:  [https://manibalasinha.github.io/devstations/](https://manibalasinha.github.io/devstations/)
+) and backend (link: [https://devstations-5.onrender.com/](https://devstations-5.onrender.com/)
+) for testing and demonstration.
