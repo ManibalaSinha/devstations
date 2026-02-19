@@ -149,8 +149,11 @@ Learning & Proof: Perfect showcase for recruiters to see a developer’s full-st
 This MVP proves DevStations is a realistic, deployable full stack application.
 
 ### **Step A: Basic Badges**
-
-At the top of your README, under the title:
+License
+Issues (open)
+Good First Issues
+Stars / Forks
+Optional: Python & Node.js version
 
 ```markdown
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -230,8 +233,9 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear description of what you expected.
 
-**Screenshots**
-If applicable, add screenshots to help explain.
+**Screenshots** / GIFs
+
+Show live app or key UI flows.
 
 **Additional context**
 Add any other context about the problem here.
