@@ -1,0 +1,40 @@
+##  How to Add Issues to the Board
+
+1. Go to **Projects → New Project → Board (Kanban)**
+2. Name it: `DevStations Roadmap` or `DevStations Volunteer Tasks`
+3. Add the **columns** above
+4. Use **“Add cards” → Issues** to link your existing issues to the board
+5. Volunteers can **drag issues** from To Do → In Progress → Done as they work
+
+> Tip: You can also **filter cards by labels** (`good first issue`, `help wanted`) for easy sorting.
+
+---
+
+##  Optional Enhancements
+
+* Use **milestones** if you want to group issues into sprints or feature sets
+* Add **priority labels** (`high`, `medium`, `low`) so volunteers know what’s urgent
+* Add **notes/cards** for “Ideas” or “Future Features”
+
+---
+
+✅ **Example Project Board Layout for DevStations**
+
+```
+DevStations Volunteer Tasks
+------------------------------------
+To Do
+  - Add Dark Mode Toggle [frontend, help wanted]
+  - Write README tutorial [documentation, good first issue]
+  - Add unit tests for /api/posts [backend, help wanted]
+  - Improve Navbar Responsiveness
+
+In Progress
+  - Fix navbar responsiveness [frontend, help wanted]
+
+Review / QA
+  - PR #12: Add post creation validation [backend, help wanted]
+
+Done
+  - Initial repo setup with Flask + React
+```
