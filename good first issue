@@ -86,12 +86,3 @@ Clean up or modularize existing CSS for better maintainability. Use React best p
 
 **Labels:** `good first issue`, `frontend`
 
----
-
- **Tips for Posting Issues on GitHub:**
-
-1. Use **clear titles** (like the ones above)
-2. Use **description + steps** so contributors know what to do
-3. Add **labels** (`good first issue`, `frontend`, `backend`, `enhancement`)
-4. Optional: assign yourself as **reviewer/mentor** so contributors know they’ll get guidance
-
