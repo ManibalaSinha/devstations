@@ -5,6 +5,24 @@
   border: 2px solid red;
 }
 
+.red-underline {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.post-card {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  background-color: white; /* default */
+}
+
+.post-card:hover {
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
