@@ -58,6 +58,21 @@ def create_post():
     posts[post_id] = post
     return jsonify(post), 201
 
+@app.route('/api/users/<string:username>', methods=['GET'])
+def get_user_profile(username):
+    if username not in users:
+        return jsonify({'error':'User not found'}), 404
+    user_posts = [
+        post for post in posts.values()
+        if post['author'] == username
+    ]
+
+    return jsonify({
+        'username': username,
+        'posts': user_posts,
+        'post_count': len(user_posts)
+    })
+
 if __name__ == '__main__':
     import os
     port = int(os.environ.get('PORT', 5000))
