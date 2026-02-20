@@ -38,3 +38,132 @@ Review / QA
 Done
   - Initial repo setup with Flask + React
 ```
+### 1️⃣ Add Dark Mode Toggle (Frontend)
+**Description:**
+Implement a dark/light theme switch for the UI. Make sure it works across all pages and persists user preference.
+**Label:** `help wanted`, `frontend`
+### 2️⃣ Add Pagination for Posts (Frontend + Backend)
+**Description:**
+If there are many posts, display them in pages (10 per page). Implement both backend pagination in Flask and frontend display in React.
+**Label:** `help wanted`, `frontend`, `backend`
+### 3️⃣ Unit Tests for Backend API
+Write pytest/unittest cases for `/api/posts` endpoints. Ensure edge cases like empty input, invalid data, and proper HTTP status codes are tested.
+**Label:** `help wanted`, `backend`, `tests`
+### 4️⃣ Profile Page for Users (Frontend + Backend)
+**Description:**
+Create a user profile page showing posts and basic info. Connect to backend API and handle routing.
+**Label:** `help wanted`, `frontend`, `backend`
+### 5️⃣ Improve Cloud Deployment Scripts
+**Description:**
+Update Docker / deployment configuration for multi-environment (GCP + Render). Add CI/CD support if possible.
+**Label:** `help wanted`, `devops`, `cloud`
+### 6️⃣ Improve UI Styling / Responsive Design
+**Description:**
+Make the UI fully responsive on mobile/tablet. Refactor CSS or React components for better layout.
+**Label:** `help wanted`, `frontend`, `enhancement`
+---
+
+### 7️⃣ Add Form Validation for Posts
+
+**Description:**
+Validate input fields for creating posts (title, content). Show error messages on invalid submission.
+
+**Label:** `help wanted`, `frontend`, `backend`
+
+---
+
+### 8️⃣ Write Tutorials / Documentation
+
+**Description:**
+Add step-by-step tutorials or expand README for running the app locally, API usage, or deployment guides.
+
+**Label:** `help wanted`, `documentation`
+
+
+## 1️⃣ Add a Dark Mode Toggle (Frontend)
+
+**Description:**
+Add a toggle button to switch the application between light and dark mode. Make sure the theme persists while navigating between pages.
+
+**Labels:** `good first issue`, `frontend`
+
+---
+
+## 2️⃣ Improve Navbar Responsiveness
+
+**Description:**
+The navigation bar does not display well on smaller screens. Adjust the layout so it looks good on mobile and tablet devices.
+
+**Labels:** `good first issue`, `frontend`
+
+---
+
+## 3️⃣ Add a Loading Indicator for API Calls
+
+**Description:**
+When fetching posts or other data from the backend, show a loading spinner until the response is received.
+
+**Labels:** `good first issue`, `frontend`, `enhancement`
+
+---
+
+## 4️⃣ Validate Post Creation Input
+
+**Description:**
+Add input validation on the “Create Post” form to prevent empty or invalid posts from being submitted. Show error messages when validation fails.
+
+**Labels:** `good first issue`, `backend`, `enhancement`
+
+---
+
+## 5️⃣ Add Unit Tests for Backend Endpoints
+
+**Description:**
+Write basic unit tests for `/api/posts` endpoints using Python testing frameworks like `pytest` or `unittest`.
+
+**Labels:** `good first issue`, `backend`, `tests`
+
+---
+
+## 6️⃣ Add Pagination for Posts
+
+**Description:**
+If there are many posts, the frontend should display them in pages (e.g., 10 posts per page). Implement pagination in the backend API and frontend display.
+
+**Labels:** `good first issue`, `frontend`, `backend`, `enhancement`
+
+---
+
+## 7️⃣ Improve README Documentation
+
+**Description:**
+Add a screenshot of the application, instructions for local setup, and deployment notes. Make it beginner-friendly for contributors.
+
+**Labels:** `good first issue`, `documentation`
+
+---
+
+## 8️⃣ Add a Profile Page
+
+**Description:**
+Create a user profile page that shows the user’s posts and basic information. Connect it to backend API.
+
+**Labels:** `good first issue`, `frontend`, `backend`
+
+---
+
+## 9️⃣ Add CORS Configuration Check
+
+**Description:**
+Ensure the backend allows cross-origin requests from all frontend deployment environments. Fix any CORS issues.
+
+**Labels:** `good first issue`, `backend`
+
+---
+
+## 🔟 Refactor CSS or Component Styling
+
+**Description:**
+Clean up or modularize existing CSS for better maintainability. Use React best practices (e.g., styled-components or CSS modules).
+
+**Labels:** `good first issue`, `frontend`
