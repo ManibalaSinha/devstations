@@ -11,7 +11,7 @@ services:
     environment:
       FLASK_ENV: development
     volumes:
-      - ./server:/app
+      - .:/app
 
   frontend:
     build:
