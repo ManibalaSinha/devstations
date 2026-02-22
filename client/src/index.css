@@ -8,6 +8,37 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Mobile & tablet — links spread across full width */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-around;
+    gap: 0;
+    padding: 0.75rem 0;
+  }
+
+  .navbar-link {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
 }
  
