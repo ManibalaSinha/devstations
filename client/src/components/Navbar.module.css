@@ -1,0 +1,15 @@
+.navbar {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+}
