@@ -18,6 +18,11 @@ export const loginUser = async (username, password) => {
   return res.json();
 };
 
+export const getPosts = async (page = 1) => {
+  const res = await fetch(`${API_URL}/api/posts?page=${page}`);
+  return res.json();
+};
+
 export const getBalance = async () => {
   const token = localStorage.getItem("token");
   const res = await fetch(`${API_URL}/api/balance`, {
