@@ -1,25 +1,16 @@
-version: "3.9"
-
+version: '3.9'
 services:
-  backend:
-    build:
-      context: .
-      dockerfile: server/Dockerfile
-    container_name: devstations-backend
-    ports:
-      - "5000:5000"
+  db:
+    image: postgres:15
+    container_name: devstations-db
     environment:
-      FLASK_ENV: development
-    volumes:
-      - ./server:/app
-
-  frontend:
-    build:
-      context: ./client
-      dockerfile: Dockerfile
-    container_name: devstations-frontend
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: devstations
     ports:
-      - "5173:5173"
-    depends_on:
-      - backend
-  
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

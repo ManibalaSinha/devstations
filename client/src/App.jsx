@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from './pages/Home';
 import Courses from './pages/Courses';
-import Quiz from './pages/Service';
+import Service from './pages/Service';
 import Navbar from './components/Navbar';
 import Login from "./Login";
 import Register from "./Register";
