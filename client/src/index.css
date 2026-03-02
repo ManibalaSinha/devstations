@@ -1,13 +1,90 @@
- /* client/src/index.css */
- 
-/* src/index.css */
+/* client/src/index.css */
+
+/* ── Theme variables ───────────────────────────────── */
+:root {
+  --bg:          #ffffff;
+  --text:        #333333;
+  --muted:       #888888;
+  --nav-bg:      #f8f9fa;
+  --nav-shadow:  rgba(0, 0, 0, 0.1);
+  --card-border: #dddddd;
+  --card-text:   #444444;
+}
+
+[data-theme="dark"] {
+  --bg:          #121212;
+  --text:        #e0e0e0;
+  --muted:       #aaaaaa;
+  --nav-bg:      #1e1e1e;
+  --nav-shadow:  rgba(0, 0, 0, 0.5);
+  --card-border: #333333;
+  --card-text:   #cccccc;
+}
+
+/* ── Base ──────────────────────────────────────────── */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.25s, color 0.25s;
+}
+
+/* ── Existing ──────────────────────────────────────── */
 .red-bordered-heading {
   border: 2px solid red;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  
+/* ── Navbar ────────────────────────────────────────── */
+.navbar {
+  padding: 1rem;
+  background-color: var(--nav-bg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 5px var(--nav-shadow);
+  font-weight: bold;
+  transition: background-color 0.25s, box-shadow 0.25s;
 }
- 
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.25s;
+}
+
+.theme-toggle {
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 1rem;
+  transition: border-color 0.25s, color 0.25s;
+}
+
+.theme-toggle:hover {
+  border-color: var(--muted);
+}
+
+/* ── Mobile & tablet ───────────────────────────────── */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-around;
+    gap: 0;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .navbar-link {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .theme-toggle {
+    margin-left: 0;
+  }
+}
