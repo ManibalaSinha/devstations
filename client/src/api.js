@@ -28,6 +28,11 @@ export const getBalance = async () => {
   return res.json();
 };
 
+export const getPosts = async () => {
+  const res = await fetch(`${API_URL}/api/posts`);
+  return res.json();
+};
+
 export const transferMoney = async (to, amount) => {
   const token = localStorage.getItem("token");
   const res = await fetch(`${API_URL}/api/transfer`, {
